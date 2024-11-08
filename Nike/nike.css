@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#cuotas {
+    background-color: rgb(0, 0, 0);
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.listas {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+.listas li a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas {
+    display: flex;
+    background-color: rgb(218, 218, 218);
+    justify-content: space-between;
+    min-height: 30px;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.fondo-cuotas {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.caja2 {
+    display: flex;
+    justify-content: space-between;
+    min-height: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.iconos {
+    align-items: center;
+}
+
+.busqueda {
+    justify-content: end;
+    gap: 15px;
+    display: flex;
+}
+
+a {
+    color: black;
+}
+
+.introduccion{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 30px;
+}
+.introduccion-filtros{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding:50px;
+    margin: 30px;
+}
+
+.letras-rojas{
+    color: rgb(174, 0, 0);
+}
+.letras-gris{
+    color: rgb(177, 177, 177);
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+}
+.footer-listas{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    min-height: 30px;
+    padding: 40px;
+}
+.listas-cajas{
+    color: rgb(255, 255, 255);
+    list-style: none;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: rgb(91, 91, 91);
+    text-decoration: none;
+}
+.titulos{
+    color: rgb(255, 255, 255)
+}
+.redes{
+    display: flex;
+}
+.primera-lista{
+    color: rgb(255, 255, 255);
+}
+.WhatsApp{
+    position: fixed;
+    right: 0px;
+    padding: 10px;
+    bottom: 0px;
+}
+.boton-arrepentimiento{
+    color: rgb(255, 255, 255);
+}
